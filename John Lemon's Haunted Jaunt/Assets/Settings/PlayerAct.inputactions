@@ -1,5 +1,5 @@
 {
-    "name": "Player",
+    "name": "PlayerAct",
     "maps": [
         {
             "name": "JohnLemon",
@@ -7,11 +7,12 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "cb618f3b-b4d2-4b60-afa6-b2807b4f0a88",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
